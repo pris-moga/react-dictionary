@@ -1,4 +1,42 @@
-.DictionarySearch {
+.DictionarySearch form {
   text-align: center;
-  margin-top: 50px;
+}
+
+.DictionarySearch input::placeholder {
+  color: #38598ba2;
+}
+
+.DictionarySearch .hint {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #38598bce;
+}
+
+.DictionarySearch .search-button {
+  border: 0px solid #ffffff;
+  border-radius: 6px;
+  background-color: #38598b;
+  padding: 6px 10px;
+  color: #ffffff;
+  box-shadow: 0px 7px 12px #113f671e;
+  transition: all 150ms ease-in-out;
+}
+
+.DictionarySearch .search-button:hover {
+  border: 0px solid #ffffff;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 6px 10px;
+  color: #38598b;
+}
+
+.DictionarySearch .search-input {
+  width: 250px;
+  border: 0px solid #ffffff;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 6px 10px;
+  color: #38598b;
+  box-shadow: 0px 7px 12px #113f671e;
 }

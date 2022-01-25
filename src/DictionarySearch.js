@@ -26,14 +26,20 @@ export default function DictionarySearch() {
 
   return (
     <div className="DictionarySearch">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Search the word..."
-          onChange={updateKeyword}
-        />
-        <input type="submit" value="Search" />
-      </form>
+      <div className="row mt-3">
+        <div className="col">
+          <form onSubmit={search}>
+            <input
+              type="search"
+              placeholder="Search the word..."
+              onChange={updateKeyword}
+              className="me-2 search-input"
+            />
+            <input type="submit" value="Search" className="search-button" />
+          </form>
+          <div className="hint">i.e. love, sun, coding, happy</div>
+        </div>
+      </div>
       <Results results={results} />
     </div>
   );

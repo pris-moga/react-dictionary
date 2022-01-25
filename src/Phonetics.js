@@ -1,13 +1,15 @@
 import React from "react";
 import PhoneticsAudio from "./PhoneticsAudio";
 
+import "./Phonetics.css";
+
 export default function Phonetics(props) {
   console.log(props.phonetics);
 
   return (
-    <div className="Phonetics">
+    <span className="Phonetics">
       <PhoneticsAudio audio={props.phonetics.audio} />
-      <div>{props.phonetics.text}</div>
-    </div>
+      <span className="ms-3 phonetic">/{props.phonetics.text}/</span>
+    </span>
   );
 }

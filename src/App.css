@@ -1,8 +1,45 @@
+.App a {
+  color: #6585ee;
+  text-decoration: none;
+}
+
+.App a:hover {
+  font-weight: 600;
+}
+
+.App footer {
+  margin: 40px 0px;
+  text-align: center;
+  font-size: 11px;
+}
+
 .App h1 {
   text-align: center;
-  margin-top: 90px;
+  font-weight: 700;
 }
 
 .App header {
   text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.App .first-row {
+  margin-top: 90px;
+}
+
+.App .color {
+  background-color: darksalmon;
+}
+
+@media (min-width: 992px) {
+  .App .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 576px) {
+  .App .container {
+    width: 300px;
+  }
 }
