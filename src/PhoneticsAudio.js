@@ -1,17 +1,21 @@
 import React from "react";
 
+import "./PhoneticsAudio.css";
+
 export default function PhoneticsAudio(props) {
+  const audio = new Audio(props.audio);
+
+  function play(event) {
+    event.preventDefault();
+    audio.play();
+  }
+
   if (props.audio) {
     return (
-      <span>
-        <span>
-          <a href={props.audio} target="_blank" rel="noreferrer">
-            <i className="fas fa-volume-off"></i>
-          </a>
-        </span>
-        <span>
-          <audio src={props.audio} controls></audio>
-        </span>
+      <span className="PhoneticsAudio">
+        <button onClick={play} className="audio-button">
+          <i className="fas fa-volume-off"></i>
+        </button>
       </span>
     );
   } else {

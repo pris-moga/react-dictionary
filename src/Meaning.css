@@ -1,0 +1,7 @@
+.Meaning h5 {
+  font-weight: 600;
+}
+
+.Meaning .uppercase::first-letter {
+  text-transform: uppercase;
+}
