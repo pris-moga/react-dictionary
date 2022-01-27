@@ -13,7 +13,7 @@ export default function PhoneticsAudio(props) {
   if (props.audio) {
     return (
       <span className="PhoneticsAudio">
-        <button onClick={play} className="audio-button">
+        <button onClick={play} title="Listen audio" className="audio-button">
           <i className="fas fa-volume-off"></i>
         </button>
       </span>

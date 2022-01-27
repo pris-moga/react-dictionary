@@ -47,8 +47,14 @@ export default function DictionarySearch() {
               placeholder="Search the word..."
               onChange={updateKeyword}
               className="me-2 search-input"
+              title="Click to write a word"
             />
-            <input type="submit" value="Search" className="search-button" />
+            <input
+              type="submit"
+              value="Search"
+              title="Click to search"
+              className="search-button"
+            />
           </form>
           <div className="hint">i.e. love, sun, coding, happy</div>
         </div>

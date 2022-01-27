@@ -25,6 +25,7 @@ function App() {
             href="https://www.behance.net/P-MOGA"
             target="_blank"
             rel="noreferrer"
+            title="See my Behance portfolio"
           >
             Priscilla Morales
           </a>{" "}
@@ -33,6 +34,7 @@ function App() {
             href="https://github.com/pris-moga/react-dictionary"
             target="_blank"
             rel="noreferrer"
+            title="See the code"
           >
             open-sourced on GitHub.
           </a>{" "}
