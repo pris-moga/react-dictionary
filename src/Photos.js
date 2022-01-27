@@ -11,11 +11,7 @@ export default function Photos(props) {
             return (
               <div key={index} className="col-sm-2 col-md-4 mb-3">
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
-                  <img
-                    src={photo.src.landscape}
-                    className="img-fluid"
-                    alt="Representative image of the word you serched for"
-                  />{" "}
+                  <img src={photo.src.landscape} className="img-fluid" alt="" />{" "}
                 </a>
               </div>
             );
