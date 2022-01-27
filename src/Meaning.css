@@ -1,4 +1,8 @@
-.Meaning h5 {
+.Meaning h4 {
+  font-weight: 700;
+}
+
+.Meaning .definition {
   font-weight: 600;
 }
 
