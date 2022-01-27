@@ -4,8 +4,6 @@ import PhoneticsAudio from "./PhoneticsAudio";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics);
-
   return (
     <span className="Phonetics">
       <PhoneticsAudio audio={props.phonetics.audio} />
