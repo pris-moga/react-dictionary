@@ -40,3 +40,14 @@
   color: #38598b;
   box-shadow: 0px 7px 12px #113f671e;
 }
+
+@media (max-width: 576px) {
+  .DictionarySearch .hint {
+    margin-top: 20px;
+  }
+
+  .DictionarySearch .search-button {
+    margin-top: 20px;
+    width: 130px;
+  }
+}

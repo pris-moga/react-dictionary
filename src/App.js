@@ -13,7 +13,7 @@ function App() {
         </div>
         <div className="row mt-5">
           <div className="col">
-            <header className="App-header">
+            <header className="App header">
               What do you want to look for?
             </header>
           </div>
